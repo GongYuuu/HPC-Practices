@@ -1,0 +1,27 @@
+# 设置编译二进制文件所涉及文件的相关变量
+BIN=saxpy.O0.exe
+OBJ=main.cpp kernel_axpy.cpp
+
+# 设置编译器路径和编译选项相关参数
+CXX=g++
+CXXFLAGS=-O2
+LDFLAGS=$(CXXFLAGS)
+
+# 设置头文件与库文件的相关参数
+INC=-I.
+LIB=-L.
+
+# 目标和依赖
+ALL:$(BIN)
+
+# 链接阶段
+$(BIN):$(OBJ)
+	$(CXX) $(LDFLAGS) -o $@ $^ $(LIB)
+
+# 编译阶段
+%.o:%.cpp
+	$(CXX) -o $@ -c $< $(INC)
+
+# 伪目标
+.PHONY:clean
+	rm -rf $(OBJ) $(BIN)
