@@ -34,5 +34,8 @@ cat –n HPCG-Benchmark_3.1_**.txt（第119行数据即为4个节点的总浮点
 
 Final Summary::HPCG result is VALID with a GFLOP/s rating of=xxx
 
+# 以下是我在计算平台上的运行过程：
+![code](code.png)  
+![result](result.png)
 经运行，我的结果显示为：
 Final Summary::HPCG result is VALID with a GFLOP/s rating of=26.4919
