@@ -24,11 +24,7 @@ yhrun -p thcp1 -N 4 -n 128 -c 2 ./xhpcg（通过yhrun命令运行HPCG的二进�
 
 cat –n HPCG-Benchmark_3.1_**.txt（第119行数据即为4个节点的总浮点计算速率GFLOP/s）
 
-注：目录说明：
-
-学员目录应创建在~/training_system中。 （符号 ~ 表示用户根目录）
-
-如，张三目录：~/training_system/zhangsan
+注：
 
 如果完成任务请填写并提交使用4个节点计算出的HPCG总浮点计算速率，即HPCG-Benchmark3.1**.txt文件中该行显示的数据：
 
