@@ -70,4 +70,5 @@ main.cpp
 
 ***下面是我的操作过程和运行结果：***
 ![pending](pending.png) 
-可以看到我通过 yhbatch 指令执行了我的两个脚本文件来实现saxpy.O0.exe 和 saxpy.O2.exe 的运行
+可以看到我通过 yhbatch 指令执行了我的两个脚本文件来实现saxpy.O0.exe 和 saxpy.O2.exe 的运行。
+结果返回到各自的文件夹里，分别为 slurm-2981028.out 和 slurm-2981029.out
