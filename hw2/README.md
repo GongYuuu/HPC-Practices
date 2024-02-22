@@ -66,7 +66,8 @@ main.cpp
 2. 学员完成该任务所创建的目录或文件路径
 3. 记录具体任务参数的路径
 4. yhrun.sh脚本文件内容
-5. saxpy.00.exe和saxpy.02.exe程序的运行时间，对比分析两段运行时间
+5. saxpy.O0.exe和saxpy.O2.exe程序的运行时间，对比分析两段运行时间
 
 ***下面是我的操作过程和运行结果：***
 ![pending](pending.png) 
+可以看到我通过 yhbatch 指令执行了我的两个脚本文件来实现saxpy.O0.exe 和 saxpy.O2.exe 的运行
