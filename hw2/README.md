@@ -69,3 +69,4 @@ main.cpp
 5. saxpy.00.exe和saxpy.02.exe程序的运行时间，对比分析两段运行时间
 
 ***下面是我的操作过程和运行结果：***
+![pending](pending.png) 
